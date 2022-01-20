@@ -1,0 +1,9 @@
+.profile{
+    border-radius: 50%;
+    border:10px solid green
+}
+@media screen and (max-width: 768px) {
+   .profile{
+       margin-top: 20px;
+   }
+  }
