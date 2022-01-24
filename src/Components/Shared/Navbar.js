@@ -7,7 +7,7 @@ import Toggle from './Toogle/Toggle';
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-success">
+        <nav className="navbar navbar-expand-lg navbar-light bg-success w-100">
             <div className="container-fluid">
                 <Link className="navbar-brand fw-bold text-warning" to="/">KA</Link>
                 <button className="navbar-toggler text-white bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,14 +24,14 @@ const Navbar = () => {
                         <li className="nav-item">
                             <Link className="nav-link text-white fw-bold pe-4" to="/blogs">Blog</Link>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <Link className="nav-link text-white fw-bold pe-4" to="/about">About</Link>
-                        </li>
+                        </li> */}
                         <li className="nav-item">
                             <Link className="nav-link text-white fw-bold pe-4" to="/contact">Contact</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link text-white fw-bold pe-4" to="/resume">Resume</Link>
+                            <a className="nav-link text-white fw-bold pe-4" rel="noreferrer" target="_blank"  href="https://drive.google.com/file/d/1GXmTOBJLEU01hbxG9dC9NzmsUT0PVVhG/view">Resume</a>
                         </li>
                     </ul>
                     <div className="d-flex">

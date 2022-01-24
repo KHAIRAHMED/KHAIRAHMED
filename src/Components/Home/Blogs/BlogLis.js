@@ -1,15 +1,18 @@
 import React from 'react';
-import img from "../../../images/khairahmed.png"
+import css from "../../../images/css.jpg"
+import js from "../../../images/js.jpg"
+import react from "../../../images/react.jpg"
+import html from "../../../images/html.jpg"
 import Slider from "react-slick";
 import Title from '../../Shared/Title';
 import Blogs from './Blogs';
 import LargeButton from './../../Shared/LargeButton';
 
 const blogData = [
-    { image: img, link: "", id: 6 },
-    { image: img, link: "", id: 7 },
-    { image: img, link: "", id: 8 },
-    { image: img, link: "", id: 9 },
+    { image: css, link: "", id: 6 },
+    { image: html, link: "", id: 7 },
+    { image: react, link: "", id: 8 },
+    { image: js, link: "", id: 9 },
 ]
 const BlogList = () => {
     const settings = {

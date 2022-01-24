@@ -5,7 +5,7 @@ const Skills = () => {
     const theme =useContext(ThemeContext)
     const darkMode = theme.state.darkMode
     return (
-        <div className={darkMode?"text-white":"text-dark font-weight-bold"}>
+        <div className={darkMode?"text-white ps-4":"text-dark font-weight-bold ps-4"}>
             <h2>My Skills</h2>
             <div className="mt-3">
                 <h3>Experts</h3>
